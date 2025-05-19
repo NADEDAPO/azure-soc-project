@@ -21,14 +21,41 @@ and proceed to harden that envoirnment after those 24 hours using various securi
 - *(2) Windows VM's & (1) Linux Virtual Machine*
 - *Log Analytics Workspace with Kusto Query Language (KQL) Queries*
 - *Azure Key Vault Management*
-- 
+- *Azure Storage/Blob Management*
+- *Microsoft Sentinel for Security Information and Event Management (SIEM)*
+- *Microsoft Defender for Cloud to Protect Cloud Resources*
+- *Windows Remote Desktop Protocol*
+- *Command Line Interface (CLI)*
+- *PowerShell for Automation and Configuration Management*
+- *Security Controls*
+  <details><summary>▶️More</summary>
 
 
+  NIST 800-53 - (Security and Privacy Controls for Information Systems and Organizations)
+
+
+  Handbook: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf
+
+
+  NIST 800-61 - (Computer Security Incident Handling Guide)
+
+  
+  Handbook: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+
+
+  Risk Management Framework (RMF):
+
+  
+  ![1_aDXOrMWuBNO4pySw5qN4gA](https://github.com/user-attachments/assets/0e84c001-ffd0-48ad-95b6-1ef0667839e8)
+
+
+  </details>
 
 Before Hardening & After Hardening Overview:
 
 ![ca47ef83-9025-4309-8ff2-f098bab1784c](https://github.com/user-attachments/assets/fb2cfb7a-4854-4ff0-9f5b-f051e79cc5c9)
 
+##
  Setup: 
   -Log Analytics
 
