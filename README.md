@@ -65,12 +65,6 @@ Before Hardening & After Hardening Overview:
   -Adding users via Azure Portal
 
   
-  -Adding users via PowerShell
-
-  
-  -Assigning roles securely
-
-  
   -Simulating Brute Force Attack
 
   
