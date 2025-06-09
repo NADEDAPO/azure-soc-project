@@ -55,7 +55,8 @@ and proceed to harden that envoirnment after those 24 hours using various securi
 ##
 Before Hardening & After Hardening Overview:
 
-![ca47ef83-9025-4309-8ff2-f098bab1784c](https://github.com/user-attachments/assets/fb2cfb7a-4854-4ff0-9f5b-f051e79cc5c9)
+![a77c38c8-8d9c-4d54-8a26-4de5ee4ddef5](https://github.com/user-attachments/assets/a33a3997-9c77-4ec6-bd0f-a09360facf3a)
+
 
 ##
  Additonal Setup: 
@@ -218,52 +219,79 @@ the other previous rule.
 
 ##
 
+<details><summary>🔽Defender for Cloud Explained</summary>
+
+Defender for Cloud is like the immune system of our metaphorical "SOC-Human." Providing an ongoing defense for 
+our cloud infrastructure. Checking for exposed ports and checking for good security posture.
+
 ![DFC 01](https://github.com/user-attachments/assets/3212cda8-d72b-4626-b461-46ea8612f55b)
 
+After searching for Defender, go to enviornment settings & click the tenant dropdown and subscription dropdown. 
+Followed by the three dot icons to the right hand side.
 
 ![DFC 02](https://github.com/user-attachments/assets/d4b93dab-d758-45ac-a918-d9551289a731)
 
+We are enabling only a few cloud resources. Be sure to save.
 
 ![DFC 03](https://github.com/user-attachments/assets/10e7452f-b781-4357-889d-3d0cd2d36efa)
 
+Click settings and go to continous exports. Select the Log Analytics section and enable all of the following.
+And be sure to save.
 
 ![DFC 04](https://github.com/user-attachments/assets/9f958997-3987-4cc3-ac52-e81373823782)
 
+
 ![DFC 05](https://github.com/user-attachments/assets/a191f1c3-848b-49c1-af4e-c45aea18656a)
 
+Going back to enviorment settings, on your dropdown select your LAW. And click the three dots.
 
 ![DFC 06](https://github.com/user-attachments/assets/3852a876-16e4-4fda-8ca1-3215cb0b876f)
 
+Under defender plans, enable servers and save. And go into data collection on the left hand side of the screen.
 
 ![DFC 07](https://github.com/user-attachments/assets/75ecbf50-82b5-48d2-a426-13ddcf11eb35)
 
+Enable all events and save.
 
 ![DFC 08](https://github.com/user-attachments/assets/12d22d1e-0beb-44ea-bed4-ca1e8708122b)
 
+</details>
 
 
+##
 
+<details><summary>🔽Blob Storage Explained</summary>
 
-
-
+In our homepage we are going to add another log event. Blob Storage, i.e a storage type of log. For anyone 
+adding files, media, pictures into our network.
 
 ![BLOB 01](https://github.com/user-attachments/assets/4655176f-ce6a-4723-b241-784570da53c2)
 
+Format your resources accordingly.
 
 ![BLOB 02](https://github.com/user-attachments/assets/98f23b0d-192f-4389-9f23-25eeeb22db17)
 
 
 ![BLOB 03](https://github.com/user-attachments/assets/98ac2927-fb12-4f97-ace3-0dd4cf00a302)
 
+Using Microsoft Managed Keys, is secure, cost-effective, and easy to use. So we will go with that. 
 
 ![BLOB 04](https://github.com/user-attachments/assets/cb1bb877-f28a-44b4-b5b1-660016c31be7)
 
 
 ![BLOB 05](https://github.com/user-attachments/assets/17bb7ee2-81f0-447d-b35a-88ab0ac9f5e7)
 
+</details>
 
+##
+
+Logging our Key Vault is useful when trying to pull logs in password change instances. Or when someone
+is trying to changing a password too many times. Or having trouble logging in. But first and foremost.
+search for 'key vault' within the search bar.
 
 ![KV 01](https://github.com/user-attachments/assets/691f89d0-d9d4-4bc2-8c7a-45866a930e64)
+
+
 
 ![KV 02](https://github.com/user-attachments/assets/db72fcd6-8e33-42ad-b85d-70ba647847dd)
 
