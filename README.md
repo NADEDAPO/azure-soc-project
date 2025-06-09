@@ -285,6 +285,8 @@ Using Microsoft Managed Keys, is secure, cost-effective, and easy to use. So we 
 
 ##
 
+<details><summary>🔽Key Vault Explained</summary>
+
 Logging our Key Vault is useful when trying to pull logs in password change instances. Or when someone
 is trying to changing a password too many times. Or having trouble logging in. But first and foremost.
 search for 'key vault' within the search bar.
@@ -300,19 +302,30 @@ search for 'key vault' within the search bar.
 
 ![KV 04](https://github.com/user-attachments/assets/8f9539e4-12eb-45a0-aa59-675a200c9238)
 
+</details>
 
+##
+
+Entra ID or Active Directory is where we will begin to get logs for users being added or removed
+within our network. 
 
 ![MEI 01](https://github.com/user-attachments/assets/bb2c89b8-2e35-4d45-8a60-f4aa8acfbcb3)
 
+In overview, add a new user. 
 
 ![MEI 02](https://github.com/user-attachments/assets/3917f2a5-394b-4c70-bacf-114a454903ea)
 
+
 ![MEI 03](https://github.com/user-attachments/assets/75d18070-5e56-450c-9737-14320b6378d6)
 
+After creating a new user. Input the name of the person who is joining our team. Addind a password
+if necessary so that the user can login to Azure.
 
 ![MEI 04](https://github.com/user-attachments/assets/b342af8e-68a7-4c42-977e-bfd868ad393e)
 
 ![MEI 05](https://github.com/user-attachments/assets/9d58c765-872d-49d9-b908-70d2aec6cd53)
+
+Add a role to this user. In my case it will be global admin and reader.
 
 ![MEI 06](https://github.com/user-attachments/assets/3f342b8f-062f-4f34-a61f-c57402f6a6ad)
 
@@ -321,6 +334,7 @@ search for 'key vault' within the search bar.
 
 ![MEI 08](https://github.com/user-attachments/assets/d16c0dab-be10-489f-b6f2-fde72f03ca0d)
 
+Check the user list and a new user should have been successfully added.
 
 ![MEI 09](https://github.com/user-attachments/assets/0a3b9bb1-011f-4bdd-9ce9-f4df90e3e983)
 
