@@ -306,6 +306,8 @@ search for 'key vault' within the search bar.
 
 ##
 
+<details><summary>🔽Entra ID Explained</summary>
+
 Entra ID or Active Directory is where we will begin to get logs for users being added or removed
 within our network. 
 
@@ -338,10 +340,13 @@ Check the user list and a new user should have been successfully added.
 
 ![MEI 09](https://github.com/user-attachments/assets/0a3b9bb1-011f-4bdd-9ce9-f4df90e3e983)
 
+</details>
 
+##
 
+<details><summary>🔽Logging & Monitoring</summary>
 
-
+</details>
 
 
 
