@@ -53,7 +53,7 @@ and proceed to harden that envoirnment after those 24 hours using various securi
   </details>
 
 ##
-Before Hardening & After Hardening Overview:
+## Before Hardening & After Hardening Overview:
 
 ![a77c38c8-8d9c-4d54-8a26-4de5ee4ddef5](https://github.com/user-attachments/assets/a33a3997-9c77-4ec6-bd0f-a09360facf3a)
 
@@ -348,11 +348,22 @@ Check the user list and a new user should have been successfully added.
 
 </details>
 
+##
+
+## Attack Maps Before Hardening / Security Controls
 
 
+![Workbook 1](https://github.com/user-attachments/assets/3c7e6482-9620-49d0-bc7f-9e787d91908e)
 
 
+![Workbook 2](https://github.com/user-attachments/assets/1ae5ab18-e832-46a0-ac98-07b20afdc6fc)
 
+
+![Workbook 4](https://github.com/user-attachments/assets/896cdf1f-6fb4-4f54-889c-fa287752d7b9)
+
+This metric is a summary of the attacks that spanned over the period of 24 hours.
+
+![Workbook 3](https://github.com/user-attachments/assets/ac44c6c6-4e90-4f2e-bb59-51fdbcaa2b84)
 
 
 
